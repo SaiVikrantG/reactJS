@@ -1,0 +1,8 @@
+.aptItem {
+  border-color: black;
+  color: blue;
+  background-color: white;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+}
