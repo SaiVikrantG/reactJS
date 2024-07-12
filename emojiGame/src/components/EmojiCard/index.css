@@ -1,0 +1,25 @@
+.card {
+  background-color: #9796f0;
+  border-radius: 15px;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+  cursor: pointer;
+}
+
+.image {
+  height: 110px;
+  width: 110px;
+}
+
+/*.emojiCard li {
+  display: flex;
+}*/

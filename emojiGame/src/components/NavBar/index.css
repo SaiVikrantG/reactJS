@@ -1,0 +1,27 @@
+.nav-bar-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff33;
+  padding: 8px;
+  width: 100%;
+}
+
+.title-with-score-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.logo-and-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.scores-container {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 9%;
+}
