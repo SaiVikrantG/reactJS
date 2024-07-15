@@ -1,0 +1,16 @@
+.background-1 {
+  background-color: black;
+  color: white;
+  font-family: Roboto;
+}
+
+.background-2 {
+  background-color: white;
+  color: black;
+  font-family: Roboto;
+}
+
+.button {
+  color: black;
+  background-color: white;
+}
