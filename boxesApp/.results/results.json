@@ -1,0 +1,12 @@
+{
+  "test_case_results": [
+    {
+      "test_case_id": "RJSCPHB1SE_TEST_1",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCPHB1SE_TEST_2",
+      "evaluation_result": "CORRECT"
+    }
+  ]
+}

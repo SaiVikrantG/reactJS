@@ -1,0 +1,33 @@
+.background {
+  background: white;
+  font-family: Roboto;
+  color: #0f172a;
+  text-align: center;
+}
+
+.box-small {
+  background-color: #fbbf24;
+  color: white;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  font-family: "Bree Serif";
+}
+
+.box-medium {
+  background-color: #38bdf8;
+  width: 240px;
+  color: white;
+  height: 240px;
+  text-align: center;
+  font-family: "Bree Serif";
+}
+
+.box-large {
+  background-color: #ec4899;
+  width: 360px;
+  color: white;
+  height: 360px;
+  text-align: center;
+  font-family: "Bree Serif";
+}
