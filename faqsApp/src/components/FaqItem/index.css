@@ -1,0 +1,16 @@
+.question {
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  margin: 5px;
+  padding: 5px;
+  border-color: #d7dae6;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.qs {
+  display: flex;
+  justify-content: space-between;
+}

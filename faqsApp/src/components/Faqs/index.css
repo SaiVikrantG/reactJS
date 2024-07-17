@@ -1,0 +1,31 @@
+.faq-main {
+  background-color: #f1f5f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.faq-card {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75%;
+  margin: auto;
+}
+
+.heading {
+  margin: auto;
+  padding: 10px;
+  color: #cb8805;
+}
+
+.faq-list {
+  margin: auto;
+  /* background-color: red; */
+  width: 90%;
+  margin-bottom: 10px;
+}

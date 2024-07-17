@@ -1,0 +1,36 @@
+{
+  "test_case_results": [
+    {
+      "test_case_id": "RJSCPC7UBX_TEST_1",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCPC7UBX_TEST_2",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCPC7UBX_TEST_3",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCPC7UBX_TEST_4",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCPC7UBX_TEST_5",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCPC7UBX_TEST_6",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCPC7UBX_TEST_7",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCPC7UBX_TEST_8",
+      "evaluation_result": "CORRECT"
+    }
+  ]
+}
