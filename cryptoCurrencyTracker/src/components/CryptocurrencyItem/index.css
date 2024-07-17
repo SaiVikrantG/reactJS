@@ -1,0 +1,17 @@
+.crypto-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 10px;
+}
+
+.prices {
+  display: flex;
+  padding: 10px;
+}
+
+.img-logo {
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
+}
