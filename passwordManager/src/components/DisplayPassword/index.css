@@ -1,0 +1,65 @@
+.displayPassword {
+  background-color: #5763a5;
+  margin-bottom: 15px;
+  /* display: flex; */
+  /* margin-left: 10px; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 75%;
+  padding: 10px;
+  color: white;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.title-and-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: -5px;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+}
+
+.input {
+  height: 40px;
+  width: 75%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.input-box {
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.displayPasswords-heading {
+  padding: 6px;
+}
+
+.passwords-container {
+  display: flex;
+}
+
+.display-passwords {
+  width: 85%;
+}
+
+.no-password-image {
+  height: 260px;
+  width: 300px;
+}
+
+.no-password-display {
+  margin-left: 350px;
+}
+
+.password-display {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,38 @@
+.addPassword {
+  background-color: #454f84;
+  border-radius: 10px;
+  /* display: flex; */
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 50%;
+  padding: 10px;
+  color: white;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+}
+
+.input {
+  height: 40px;
+  width: 75%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.input-box {
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.addButton {
+  color: white;
+  background-color: blue;
+  margin-left: auto;
+  border-radius: 10px;
+  padding: 10px;
+  width: 60px;
+}

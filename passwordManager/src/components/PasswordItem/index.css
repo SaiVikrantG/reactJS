@@ -1,0 +1,38 @@
+.password-item {
+  border-radius: 10px;
+  background-color: #5763a5;
+  display: flex;
+  border-color: white;
+  list-style-type: none;
+  border-width: 1px;
+  border-style: solid;
+  margin: 5px;
+  /* width: 150px; */
+}
+
+.password-details {
+  color: white;
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.profile-photo {
+  width: 45px; /* Set a fixed width */
+  height: 45px; /* Set the height equal to the width */
+  border-radius: 50%; /* Set border-radius to 50% to make it a circle */
+  background-color: orange;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Ensure content stays within the circle */
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.delete-icon {
+  background-color: #5763a5;
+  height: 20px;
+  width: 20px;
+  margin-left: auto;
+}

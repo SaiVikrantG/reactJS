@@ -1,0 +1,52 @@
+.passwordManager {
+  background-color: #9ba9eb;
+  width: 100vw;
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.PasswordManager-objects {
+  width: 90%;
+  margin-top: 15px;
+  margin-left: auto;
+  /* align-items: center; */
+}
+
+.logo {
+  display: flex;
+  width: 90%;
+  margin-bottom: 25px;
+}
+
+.appLogo {
+  width: 200px;
+  height: 70px;
+  margin-right: auto;
+}
+
+.addPassword-card {
+  background-color: #5763a5;
+  border-radius: 10px;
+  display: flex;
+  width: 75%;
+  margin-bottom: 15px;
+  /* justify-content: space-between; */
+}
+
+.addPassword-image-container {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.addPassword-image {
+  height: 350px;
+  width: 400px;
+  /* margin-left: 30px; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
