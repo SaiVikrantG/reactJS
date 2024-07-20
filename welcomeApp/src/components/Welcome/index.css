@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.background {
+  background-color: #1e293b;
+  color: #f0bb03;
+  font-family: 'Bree Serif';
+  text-align: center;
+}
+
+.button {
+  background-color: white;
+  color: black;
+}
