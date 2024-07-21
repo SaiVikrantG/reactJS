@@ -1,0 +1,81 @@
+/* Write your CSS code here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  box-shadow: 0px 4px 16px 4px #bfbfbf;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 10px;
+}
+
+.heading {
+  color: #ea580c;
+  font-weight: 500;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+
+.label {
+  font-size: 16px;
+  color: #475569;
+  font-weight: 500;
+  margin: 3px;
+}
+
+.input {
+  width: 300px;
+  padding: 8px 16px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  margin: 3px;
+}
+
+.btn {
+  background-color: #ea580c;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 8px 15px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.error {
+  color: #ff0b37;
+  font-size: 15px;
+}
+
+.border {
+  border: 1px solid #ff0b37;
+}
+
+@media screen and (max-width: 500px) {
+  .form-container {
+    padding: 12px;
+  }
+  .input {
+    width: 210px;
+  }
+}
