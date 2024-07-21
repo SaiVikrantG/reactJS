@@ -1,0 +1,19 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 97vw;
+}
+
+.logo {
+  height: 60px;
+  width: 260px;
+  margin: 15px;
+}
+
+.logos {
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
