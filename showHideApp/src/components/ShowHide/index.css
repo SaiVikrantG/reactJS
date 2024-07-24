@@ -1,0 +1,12 @@
+.background {
+  background-color: #fc63a7;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.button {
+  background-color: white;
+  color: #dd1264;
+  border-radius: 5px;
+}
