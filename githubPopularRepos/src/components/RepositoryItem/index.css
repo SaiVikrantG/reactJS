@@ -1,0 +1,16 @@
+.repo-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 40px;
+}
+
+.avatar {
+  height: 100px;
+  width: 100px;
+}
+
+.logo {
+  height: 20px;
+  width: 20px;
+}

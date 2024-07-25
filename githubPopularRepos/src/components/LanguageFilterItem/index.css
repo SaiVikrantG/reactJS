@@ -1,0 +1,37 @@
+.selectedItem {
+  color: blue;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: blue;
+  height: auto;
+  width: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.tabItem {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+}
+
+.tabItem button {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  padding: 0;
+  outline: none;
+}
+
+.tabItem .selectedItem {
+  color: blue;
+  border-radius: 30px;
+  border: 2px solid blue;
+  height: 35px;
+  width: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}

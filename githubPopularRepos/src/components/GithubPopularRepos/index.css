@@ -1,0 +1,54 @@
+root {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.repos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.languageBar {
+  display: flex;
+  font-family: Roboto;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.loader {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.repos-display {
+  margin-left: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.repo-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style-type: none;
+  width: 900px;
+  margin: 0;
+}
+
+.repo-list li {
+  flex: 0 1 30%; /* Flex-grow: 0, Flex-shrink: 1, Flex-basis: 30% */
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+/* Optional: to add some spacing around the items */
+.repo-list li:not(:nth-child(3n)) {
+  margin-right: 10px; /* space between items in a row */
+}
+
+.fail {
+  height: 600px;
+  width: 800px;
+}
