@@ -1,0 +1,17 @@
+.controller {
+  display: flex;
+  flex-direction: column;
+  background-color: #475569;
+  width: 100vw;
+  height: 30vh;
+  color: white;
+  font-family: Roboto;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.togglers {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}

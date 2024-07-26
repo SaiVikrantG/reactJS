@@ -1,0 +1,35 @@
+.layout {
+  padding: 10px;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.navbar-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.navBar {
+  background-color: #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 10px;
+}
+
+.ad {
+  padding: 15px;
+  border-style: solid;
+  margin: 5px;
+}
+
+.content {
+  background-color: #cbd5e1;
+  width: 100%;
+}
