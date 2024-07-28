@@ -1,0 +1,9 @@
+.ipl-dashboard {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  height: 110vh;
+  width: 100vw;
+  display: flex;
+  color: white;
+  flex-direction: column;
+}

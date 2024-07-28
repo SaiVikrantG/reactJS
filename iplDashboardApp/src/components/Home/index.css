@@ -1,0 +1,38 @@
+.ipl-dashboard {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  height: 110vh;
+  width: 100vw;
+  display: flex;
+  color: white;
+  flex-direction: column;
+}
+
+.iplLogo {
+  height: 90px;
+  width: 60px;
+  margin-top: 30px;
+}
+
+.logo-container {
+  display: flex;
+  font-size: 30px;
+  /* margin: auto; */
+  height: 20%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+}
+
+.teams-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teams-container > .team-card {
+  flex-basis: 40%; /* Each item will take up 50% of the container's width */
+  box-sizing: border-box; /* Ensures padding and border are included in the width */
+  padding: 10px; /* Add some padding if needed */
+}

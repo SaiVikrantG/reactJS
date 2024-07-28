@@ -1,0 +1,76 @@
+.team-page {
+  display: flex;
+  height: 140vh;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.RCB {
+  background: linear-gradient(to bottom, #a4261d, black);
+}
+
+.KKR {
+  /* background-color: #5755a7; */
+  background: linear-gradient(to bottom, #5755a7, black);
+}
+
+.KXP {
+  background: linear-gradient(to bottom, #d91c1f, black);
+}
+
+.CSK {
+  /* background-color: #f7db00; */
+  background: linear-gradient(to bottom, #f7db00, black);
+}
+
+.RR {
+  /* background-color: #da237b; */
+  background: linear-gradient(to bottom, #da237b, black);
+}
+
+.MI {
+  /* background-color: #13418b; */
+  background: linear-gradient(to bottom, #13418b, black);
+}
+
+.SRH {
+  /* background-color: #f26d22; */
+  background: linear-gradient(to bottom, #f26d22, black);
+}
+
+.DC {
+  /* background-color: #0f172a; */
+  background: linear-gradient(to bottom, #0f172a, black);
+}
+
+.team-components {
+  margin-top: 30px;
+  width: 80%;
+  /* display: flex;
+  justify-content: center; */
+  align-items: center;
+  color: white;
+  /* flex-direction: column; */
+}
+
+.banner-image {
+  height: 30%;
+  width: 100%;
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.latest-match {
+  background-color: black;
+  border-radius: 10px;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+.recent-matches {
+  display: flex;
+  margin-top: 10px;
+}

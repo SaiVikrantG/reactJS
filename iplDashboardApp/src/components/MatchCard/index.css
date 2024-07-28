@@ -1,0 +1,13 @@
+.match-card {
+  background-color: black;
+  border-radius: 10px;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.team-logo {
+  height: 120px;
+  width: 120px;
+}
