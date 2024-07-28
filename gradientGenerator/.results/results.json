@@ -1,0 +1,84 @@
+{
+  "test_case_results": [
+    {
+      "test_case_id": "RJSCP13IIH_TEST_1",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCP13IIH_TEST_2",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCP13IIH_TEST_3",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCP13IIH_TEST_4",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCP13IIH_TEST_5",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCP13IIH_TEST_6",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCP13IIH_TEST_7",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCP13IIH_TEST_8",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCP13IIH_TEST_9",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCP13IIH_TEST_10",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCP13IIH_TEST_11",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCP13IIH_TEST_12",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCP13IIH_TEST_13",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCP13IIH_TEST_14",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCP13IIH_TEST_15",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCP13IIH_TEST_16",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCP13IIH_TEST_17",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCP13IIH_TEST_18",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCP13IIH_TEST_19",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCP13IIH_TEST_20",
+      "evaluation_result": "CORRECT"
+    }
+  ]
+}
