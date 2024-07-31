@@ -1,0 +1,26 @@
+.courseCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-duration {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tag {
+  border-radius: 10px;
+  background-color: #0967d2;
+  margin: 5px;
+  width: auto;
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
+
+.tags-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}

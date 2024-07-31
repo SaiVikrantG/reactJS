@@ -1,0 +1,7 @@
+.timeline-list {
+  width: 100vw;
+  height: 120vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

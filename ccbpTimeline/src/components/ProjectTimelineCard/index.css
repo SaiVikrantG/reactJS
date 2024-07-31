@@ -1,0 +1,14 @@
+.projectCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  height: 220px;
+  width: 100%;
+}
+
+.title-duration {
+  display: flex;
+  justify-content: space-between;
+}
