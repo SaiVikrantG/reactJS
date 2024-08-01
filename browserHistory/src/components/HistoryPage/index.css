@@ -1,0 +1,32 @@
+.container {
+  background-color: white;
+  color: #64748b;
+  text-align: center;
+}
+
+.history {
+  width: 150px;
+  height: 100px;
+}
+
+.search {
+  background-color: #3367d6;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.searchbar {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  margin-left: auto;
+}
+
+.text {
+  color: black;
+}
