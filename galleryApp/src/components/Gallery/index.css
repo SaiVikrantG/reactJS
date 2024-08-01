@@ -1,0 +1,14 @@
+.image-blur {
+  opacity: 0.5;
+}
+.container {
+  text-align: center;
+  background-color: white;
+  font-family: Roboto;
+  color: black;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+}
