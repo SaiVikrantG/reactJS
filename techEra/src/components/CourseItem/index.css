@@ -1,0 +1,39 @@
+.link-item {
+  text-decoration: none;
+  color: black;
+}
+
+.course-item {
+  display: flex;
+  align-items: center;
+  width: 160px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-right: 12px;
+}
+
+.logo-style {
+  width: 55px;
+  margin-right: 12px;
+}
+
+.name {
+  font-weight: 800;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 992px) {
+  .course-item {
+    margin: 30px;
+  }
+  .logo-style {
+    width: 80px;
+    margin-right: 14px;
+  }
+
+  .name {
+    font-size: 24px;
+    font-weight: 500;
+  }
+}

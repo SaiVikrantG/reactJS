@@ -1,0 +1,18 @@
+.nav-container {
+  display: flex;
+  justify-content: center;
+  background-color: #f1f5f9;
+  height: 100px;
+}
+
+.header-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.website-logo {
+  height: 50px;
+  width: 150px;
+  margin: 10px;
+}
