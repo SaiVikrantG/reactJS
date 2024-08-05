@@ -1,0 +1,73 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.projects-main-container {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 10px;
+  background-color: #ffffff;
+  width: 90%;
+  align-self: center;
+}
+
+@media screen and (min-width: 992px) {
+  .projects-main-container {
+    width: 80%;
+  }
+}
+
+.dropdown-input {
+  width: 70%;
+  padding: 16px;
+  border: 2px solid #cbd5e1;
+  border-radius: 8px;
+  box-shadow: 0px 1px 8px #e2e8f0;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 556px) {
+  .dropdown-input {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 786px) {
+  .dropdown-input {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .dropdown-input {
+    width: 30%;
+  }
+}
+
+.option-name {
+  font-family: 'Roboto';
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  min-height: 65vh;
+}
+
+.projects-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-top: 20px;
+}

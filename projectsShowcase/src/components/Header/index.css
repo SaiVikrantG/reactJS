@@ -1,0 +1,22 @@
+.nav-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  height: 100px;
+  background-color: #f1f5f9;
+}
+
+.header-container {
+  display: flex;
+  width: 90%;
+}
+
+@media screen and (min-width: 992px) {
+  .header-container {
+    width: 80%;
+  }
+}
+
+.website-logo {
+  height: 60px;
+}
