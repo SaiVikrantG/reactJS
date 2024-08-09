@@ -1,0 +1,29 @@
+.tab {
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  margin-right: 80px;
+  border-style: solid;
+  border-width: 2px;
+  padding: 10px;
+}
+
+.green {
+  background-color: greenyellow;
+  border-color: greenyellow;
+}
+
+.blue {
+  background-color: #06b6d4;
+  border-color: #06b6d4;
+}
+
+.purple {
+  background-color: blueviolet;
+  border-color: blueviolet;
+}
+
+.image {
+  height: 100px;
+  width: 100px;
+}

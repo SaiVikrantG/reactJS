@@ -1,0 +1,27 @@
+.navbar {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  width: 100vw;
+  margin-bottom: 5px;
+}
+
+.container {
+  background-color: white;
+  padding: 15px;
+}
+
+.money-tab {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.transactions {
+  display: flex;
+  flex-direction: row;
+}
+
+.addTrans {
+  border-radius: 15px;
+  padding: 15px;
+}
