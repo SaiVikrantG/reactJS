@@ -1,0 +1,19 @@
+.background {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  color: white;
+  font-family: Roboto;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  color: #171f46;
+}
+
+.review {
+  text-align: center;
+}
