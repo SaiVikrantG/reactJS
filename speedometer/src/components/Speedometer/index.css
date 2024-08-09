@@ -1,0 +1,14 @@
+.container {
+  background-color: #07080c;
+  color: white;
+  font-family: Roboto;
+  text-align: center;
+}
+
+.button {
+  border-radius: 5px;
+  background-color: #0b69ff;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
