@@ -1,0 +1,17 @@
+.option {
+  padding: 5px;
+  color: #64748b;
+  cursor: pointer; /* Add this to indicate that the item is clickable */
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.option.blue {
+  color: blue; /* Adjust this to match the class you use for selected */
+}
+
+.rating-imgs {
+  width: 180px;
+  height: 30px;
+}

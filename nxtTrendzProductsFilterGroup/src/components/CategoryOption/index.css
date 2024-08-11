@@ -1,0 +1,10 @@
+.option {
+  padding: 5px;
+  color: #64748b;
+  cursor: pointer; /* Add this to indicate that the item is clickable */
+  margin-right: auto;
+}
+
+.option.blue {
+  color: blue; /* Adjust this to match the class you use for selected */
+}

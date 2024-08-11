@@ -1,0 +1,49 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+.search-bar-icon {
+  display: flex;
+  align-items: center;
+  background-color: #f1f5f9;
+  width: auto;
+}
+
+.sort-by-icon {
+  font-size: 24px;
+  color: #475569;
+  margin-right: 6px;
+}
+
+.search-bar {
+  border: none;
+  outline: none; /* This removes the outline when the search box is focused */
+  padding: 5px; /* Optional: add some padding for better appearance */
+  background-color: #f1f5f9;
+  width: 90%;
+}
+
+.categoryOptions {
+  list-style-type: none;
+  align-items: left;
+}
+
+.clearFilters {
+  border-color: blue;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 2px;
+  background-color: white;
+  color: blue;
+  padding: 10px;
+  cursor: pointer; /* Add this to indicate that the item is clickable */
+}
