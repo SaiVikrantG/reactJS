@@ -1,0 +1,15 @@
+.edContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: #152850;
+}
+
+.coverImg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  width: 100vw;
+  height: 100%;
+  background-size: cover;
+  color: white;
+}
