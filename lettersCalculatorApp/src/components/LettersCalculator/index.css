@@ -1,0 +1,18 @@
+.background {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  color: #1d976c;
+  font-family: Roboto;
+}
+
+.image {
+  margin-left: auto;
+}
+
+.numl {
+  background-color: white;
+  color: #1d976c;
+  padding: 5px;
+  border-radius: 5px;
+}
