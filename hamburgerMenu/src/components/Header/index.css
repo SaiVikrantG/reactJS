@@ -1,0 +1,29 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 99vw;
+  border-color: black;
+  border-bottom-style: solid;
+}
+
+.web-logo {
+  height: 120px;
+  width: 120px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-content {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.popup-overlay {
+  background-color: white;
+}
