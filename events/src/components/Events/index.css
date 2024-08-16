@@ -1,0 +1,28 @@
+.events-page {
+  color: black;
+  font-family: Roboto;
+  height: 110vh;
+  display: flex;
+}
+
+.events-display {
+  background-color: #475569;
+  width: 70vw;
+}
+
+.eventsList {
+  margin: 20px;
+}
+
+.events {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+.events li {
+  flex: 0 0 40%; /* Each item will take up 50% of the container's width */
+  box-sizing: border-box;
+  padding: 10px;
+}

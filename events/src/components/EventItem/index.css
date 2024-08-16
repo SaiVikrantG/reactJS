@@ -1,0 +1,15 @@
+.eventContainer {
+  display: flex;
+  color: white;
+  margin: 10px;
+  flex-direction: column;
+  height: 300px;
+  width: auto;
+}
+
+.image {
+  height: 180px;
+  width: 300px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
