@@ -1,0 +1,24 @@
+{
+  "test_case_results": [
+    {
+      "test_case_id": "RJSCP1Q3F3_TEST_1",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCP1Q3F3_TEST_2",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCP1Q3F3_TEST_3",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCP1Q3F3_TEST_4",
+      "evaluation_result": "CORRECT"
+    },
+    {
+      "test_case_id": "RJSCP1Q3F3_TEST_5",
+      "evaluation_result": "CORRECT"
+    }
+  ]
+}

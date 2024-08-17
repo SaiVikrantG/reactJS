@@ -1,0 +1,11 @@
+.background {
+  background-color: #ffc2a0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.card {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
