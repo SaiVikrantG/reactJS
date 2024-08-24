@@ -1,0 +1,436 @@
+<html lang="en"><head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>ccbp test reporter</title>
+            <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+	        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+            <script src="https://kit.fontawesome.com/522ee478c4.js" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.3.0/alpine.js"></script>
+            <script src="js/view.js"></script>
+        </head><body><div id="test-results">{
+  &quot;numFailedTestSuites&quot;: 1,
+  &quot;numFailedTests&quot;: 1,
+  &quot;numPassedTestSuites&quot;: 0,
+  &quot;numPassedTests&quot;: 23,
+  &quot;numPendingTestSuites&quot;: 0,
+  &quot;numPendingTests&quot;: 0,
+  &quot;numRuntimeErrorTestSuites&quot;: 0,
+  &quot;numTodoTests&quot;: 0,
+  &quot;numTotalTestSuites&quot;: 1,
+  &quot;numTotalTests&quot;: 24,
+  &quot;openHandles&quot;: [],
+  &quot;snapshot&quot;: {
+    &quot;added&quot;: 0,
+    &quot;didUpdate&quot;: false,
+    &quot;failure&quot;: false,
+    &quot;filesAdded&quot;: 0,
+    &quot;filesRemoved&quot;: 0,
+    &quot;filesRemovedList&quot;: [],
+    &quot;filesUnmatched&quot;: 0,
+    &quot;filesUpdated&quot;: 0,
+    &quot;matched&quot;: 0,
+    &quot;total&quot;: 0,
+    &quot;unchecked&quot;: 0,
+    &quot;uncheckedKeysByFile&quot;: [],
+    &quot;unmatched&quot;: 0,
+    &quot;updated&quot;: 0
+  },
+  &quot;startTime&quot;: 1722502933207,
+  &quot;success&quot;: false,
+  &quot;testResults&quot;: [
+    {
+      &quot;leaks&quot;: false,
+      &quot;numFailingTests&quot;: 1,
+      &quot;numPassingTests&quot;: 23,
+      &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
+      &quot;perfStats&quot;: {
+        &quot;end&quot;: 1722502937712,
+        &quot;runtime&quot;: 4148,
+        &quot;slow&quot;: false,
+        &quot;start&quot;: 1722502933564
+      },
+      &quot;skipped&quot;: false,
+      &quot;snapshot&quot;: {
+        &quot;added&quot;: 0,
+        &quot;fileDeleted&quot;: false,
+        &quot;matched&quot;: 0,
+        &quot;unchecked&quot;: 0,
+        &quot;uncheckedKeys&quot;: [],
+        &quot;unmatched&quot;: 0,
+        &quot;updated&quot;: 0
+      },
+      &quot;testFilePath&quot;: &quot;/home/workspace/.tmp/reactjs/coding-practices/myTasks/src/__tests__/App.js&quot;,
+      &quot;testResults&quot;: [
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;My Tasks Tests&quot;
+          ],
+          &quot;duration&quot;: 54,
+          &quot;failureDetails&quot;: [
+            {}
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: Warning: Each child in a list should have a unique \&quot;key\&quot; prop.%s%s See https://reactjs.org/link/warning-keys for more information.%s\n    at console.error (/home/workspace/.tmp/reactjs/coding-practices/myTasks/src/__tests__/App.js:62:15)\n    at printWarning (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/react@17.0.1/node_modules/react/cjs/react-jsx-dev-runtime.development.js:117:30)\n    at error (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/react@17.0.1/node_modules/react/cjs/react-jsx-dev-runtime.development.js:93:5)\n    at validateExplicitKey (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/react@17.0.1/node_modules/react/cjs/react-jsx-dev-runtime.development.js:986:5)\n    at validateChildKeys (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/react@17.0.1/node_modules/react/cjs/react-jsx-dev-runtime.development.js:1013:11)\n    at jsxWithValidation (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/react@17.0.1/node_modules/react/cjs/react-jsx-dev-runtime.development.js:1184:11)\n    at App.render (/home/workspace/.tmp/reactjs/coding-practices/myTasks/src/App.js:115:13)\n    at finishClassComponent (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)\n    at updateClassComponent (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)\n    at beginWork (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)\n    at beginWork$1 (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)\n    at performUnitOfWork (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22779:12)\n    at workLoopSync (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22707:5)\n    at renderRootSync (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22670:7)\n    at performSyncWorkOnRoot (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22293:18)\n    at scheduleUpdateOnFiber (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:21881:7)\n    at updateContainer (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:25482:3)\n    at /home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:26021:7\n    at unbatchedUpdates (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22431:12)\n    at legacyRenderSubtreeIntoContainer (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:26020:5)\n    at Object.render (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:26103:10)\n    at /home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/@testing-library+react@11.2.5_react-dom@17.0.1+react@17.0.1/node_modules/@testing-library/react/dist/pure.js:99:25\n    at batchedUpdates$1 (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22380:12)\n    at act (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)\n    at render (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/@testing-library+react@11.2.5_react-dom@17.0.1+react@17.0.1/node_modules/@testing-library/react/dist/pure.js:95:26)\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/reactjs/coding-practices/myTasks/src/__tests__/App.js:65:11)\n    at Promise.then.completed (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/utils.js:276:28)\n    at new Promise (&lt;anonymous&gt;)\n    at callAsyncCircusFn (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/utils.js:216:10)\n    at _callCircusTest (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:212:40)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at _runTest (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:149:3)\n    at _runTestsForDescribeBlock (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:63:9)\n    at _runTestsForDescribeBlock (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:57:9)\n    at run (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)\n    at jestAdapter (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/jest-circus@26.6.0/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)\n    at runTestInternal (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:380:16)\n    at runTest (/home/workspace/.tmp/reactjs/coding-practices/myTasks/node_modules/.pnpm/jest-runner@26.6.3/node_modules/jest-runner/build/runTest.js:472:34)&quot;
+          ],
+          &quot;fullName&quot;: &quot;My Tasks TestsWhen a task is added page should consist of at least two HTML list items and the tagsList should be rendered using a unique key as a prop for each tagItem&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;When a task is added page should consist of at least two HTML list items and the tagsList should be rendered using a unique key as a prop for each tagItem&quot;,
+          &quot;id&quot;: &quot;RJSCEUU4M8_TEST_1&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;My Tasks Tests&quot;
+          ],
+          &quot;duration&quot;: 160,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;My Tasks TestsPage should consist of HTML main heading element with text content as \&quot;Create a task\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;Page should consist of HTML main heading element with text content as \&quot;Create a task\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCEUU4M8_TEST_2&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;My Tasks Tests&quot;
+          ],
+          &quot;duration&quot;: 10,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;My Tasks TestsPage should consist of HTML form element to display all the input elements and button element&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;Page should consist of HTML form element to display all the input elements and button element&quot;,
+          &quot;id&quot;: &quot;RJSCEUU4M8_TEST_3&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;My Tasks Tests&quot;
+          ],
+          &quot;duration&quot;: 19,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;My Tasks TestsPage should consist of the HTML input element with the label as \&quot;Task\&quot; and type as \&quot;text\&quot; with \&quot;Enter the task here\&quot; as a placeholder&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;Page should consist of the HTML input element with the label as \&quot;Task\&quot; and type as \&quot;text\&quot; with \&quot;Enter the task here\&quot; as a placeholder&quot;,
+          &quot;id&quot;: &quot;RJSCEUU4M8_TEST_4&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;My Tasks Tests&quot;
+          ],
+          &quot;duration&quot;: 46,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;My Tasks TestsPage should consist of HTML select element with the label as \&quot;Tags\&quot; and initial value should contain the value of key \&quot;optionId\&quot; from the first item provided in the tagsList&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;Page should consist of HTML select element with the label as \&quot;Tags\&quot; and initial value should contain the value of key \&quot;optionId\&quot; from the first item provided in the tagsList&quot;,
+          &quot;id&quot;: &quot;RJSCEUU4M8_TEST_5&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;My Tasks Tests&quot;
+          ],
+          &quot;duration&quot;: 211,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;My Tasks TestsPage should consist of HTML option elements with value equal to the value of the key \&quot;optionId\&quot; in the tagsList provided&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;Page should consist of HTML option elements with value equal to the value of the key \&quot;optionId\&quot; in the tagsList provided&quot;,
+          &quot;id&quot;: &quot;RJSCEUU4M8_TEST_6&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;My Tasks Tests&quot;
+          ],
+          &quot;duration&quot;: 187,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;My Tasks TestsPage should consist of HTML option elements with text content equal to the value of the key \&quot;displayText\&quot; in the tagsList provided&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;Page should consist of HTML option elements with text content equal to the value of the key \&quot;displayText\&quot; in the tagsList provided&quot;,
+          &quot;id&quot;: &quot;RJSCEUU4M8_TEST_7&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;My Tasks Tests&quot;
+          ],
+          &quot;duration&quot;: 49,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;My Tasks TestsPage should consist of HTML button element with text content as \&quot;Add Task\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;Page should consist of HTML button element with text content as \&quot;Add Task\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCEUU4M8_TEST_8&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;My Tasks Tests&quot;
+          ],
+          &quot;duration&quot;: 22,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;My Tasks TestsPage should consist of HTML main heading element with text content as \&quot;Tags\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;Page should consist of HTML main heading element with text content as \&quot;Tags\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCEUU4M8_TEST_9&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;My Tasks Tests&quot;
+          ],
+          &quot;duration&quot;: 23,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;My Tasks TestsPage should consist of HTML list items to display the given list of tags in the tagsList&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;Page should consist of HTML list items to display the given list of tags in the tagsList&quot;,
+          &quot;id&quot;: &quot;RJSCEUU4M8_TEST_10&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;My Tasks Tests&quot;
+          ],
+          &quot;duration&quot;: 250,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;My Tasks TestsPage should consist of HTML Button elements with text content equal to the value of the key \&quot;displayText\&quot; in the tagsList provided&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;Page should consist of HTML Button elements with text content equal to the value of the key \&quot;displayText\&quot; in the tagsList provided&quot;,
+          &quot;id&quot;: &quot;RJSCEUU4M8_TEST_11&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;My Tasks Tests&quot;
+          ],
+          &quot;duration&quot;: 22,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;My Tasks TestsPage should consist of HTML main heading element with text content as \&quot;Tasks\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;Page should consist of HTML main heading element with text content as \&quot;Tasks\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCEUU4M8_TEST_12&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;My Tasks Tests&quot;
+          ],
+          &quot;duration&quot;: 12,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;My Tasks Tests When the tasks list is empty then page should consist of HTML paragraph element with text content as \&quot;No Tasks Added Yet\&quot;&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot; When the tasks list is empty then page should consist of HTML paragraph element with text content as \&quot;No Tasks Added Yet\&quot;&quot;,
+          &quot;id&quot;: &quot;RJSCEUU4M8_TEST_13&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;My Tasks Tests&quot;
+          ],
+          &quot;duration&quot;: 52,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;My Tasks TestsWhen a non-empty value is provided for the HTML input element with the label text \&quot;Task\&quot;, the value provided should be updated in the value of the input element&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When a non-empty value is provided for the HTML input element with the label text \&quot;Task\&quot;, the value provided should be updated in the value of the input element&quot;,
+          &quot;id&quot;: &quot;RJSCEUU4M8_TEST_14&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;My Tasks Tests&quot;
+          ],
+          &quot;duration&quot;: 39,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;My Tasks TestsWhen a value is provided for the HTML select element with the label text \&quot;Tags\&quot;, the value provided should be updated in the value of the select element&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When a value is provided for the HTML select element with the label text \&quot;Tags\&quot;, the value provided should be updated in the value of the select element&quot;,
+          &quot;id&quot;: &quot;RJSCEUU4M8_TEST_15&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;My Tasks Tests&quot;
+          ],
+          &quot;duration&quot;: 129,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;My Tasks TestsWhen non-empty values are provided in the HTML input and select elements with label text \&quot;Task\&quot; and \&quot;Tags\&quot;, and the \&quot;Add Task\&quot; button is clicked, the values inside the HTML input and select elements should be updated to their initial values&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When non-empty values are provided in the HTML input and select elements with label text \&quot;Task\&quot; and \&quot;Tags\&quot;, and the \&quot;Add Task\&quot; button is clicked, the values inside the HTML input and select elements should be updated to their initial values&quot;,
+          &quot;id&quot;: &quot;RJSCEUU4M8_TEST_16&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;My Tasks Tests&quot;
+          ],
+          &quot;duration&quot;: 125,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;My Tasks TestsWhen non-empty values are provided in the HTML input and select elements with label text \&quot;Task\&quot; and \&quot;Tags\&quot;, and the \&quot;Add Task\&quot; button is clicked, an HTML list item should be added&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When non-empty values are provided in the HTML input and select elements with label text \&quot;Task\&quot; and \&quot;Tags\&quot;, and the \&quot;Add Task\&quot; button is clicked, an HTML list item should be added&quot;,
+          &quot;id&quot;: &quot;RJSCEUU4M8_TEST_17&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;My Tasks Tests&quot;
+          ],
+          &quot;duration&quot;: 147,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;My Tasks TestsWhen non-empty values are provided in the HTML input and select elements with label text \&quot;Task\&quot; and \&quot;Tags\&quot;, and the \&quot;Add Task\&quot; button is clicked, then the page should consist of at least 2 HTML unordered list elements to display the list of tags and tasks &quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When non-empty values are provided in the HTML input and select elements with label text \&quot;Task\&quot; and \&quot;Tags\&quot;, and the \&quot;Add Task\&quot; button is clicked, then the page should consist of at least 2 HTML unordered list elements to display the list of tags and tasks &quot;,
+          &quot;id&quot;: &quot;RJSCEUU4M8_TEST_18&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;My Tasks Tests&quot;
+          ],
+          &quot;duration&quot;: 133,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;My Tasks TestsWhen non-empty values are provided in the HTML input and select elements with label text \&quot;Task\&quot; and \&quot;Tags\&quot;, and the \&quot;Add Task\&quot; button is clicked, an HTML list item should be added to the tasks list with a unique id imported from the UUID package &quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When non-empty values are provided in the HTML input and select elements with label text \&quot;Task\&quot; and \&quot;Tags\&quot;, and the \&quot;Add Task\&quot; button is clicked, an HTML list item should be added to the tasks list with a unique id imported from the UUID package &quot;,
+          &quot;id&quot;: &quot;RJSCEUU4M8_TEST_19&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;My Tasks Tests&quot;
+          ],
+          &quot;duration&quot;: 74,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;My Tasks TestsWhen a non-empty value is provided for the HTML input element with label text \&quot;Task\&quot; and the \&quot;Add Task\&quot; button is clicked, an HTML paragraph element with text content as \&quot;Task\&quot; provided should be displayed&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When a non-empty value is provided for the HTML input element with label text \&quot;Task\&quot; and the \&quot;Add Task\&quot; button is clicked, an HTML paragraph element with text content as \&quot;Task\&quot; provided should be displayed&quot;,
+          &quot;id&quot;: &quot;RJSCEUU4M8_TEST_20&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;My Tasks Tests&quot;
+          ],
+          &quot;duration&quot;: 115,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;My Tasks TestsWhen a value is provided for the HTML select element with label text \&quot;Tags\&quot;, and the \&quot;Add Task\&quot; button is clicked, an HTML paragraph element with text content \&quot;Tag\&quot; provided should be displayed&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When a value is provided for the HTML select element with label text \&quot;Tags\&quot;, and the \&quot;Add Task\&quot; button is clicked, an HTML paragraph element with text content \&quot;Tag\&quot; provided should be displayed&quot;,
+          &quot;id&quot;: &quot;RJSCEUU4M8_TEST_21&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;My Tasks Tests&quot;
+          ],
+          &quot;duration&quot;: 306,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;My Tasks TestsWhen a tag in the list of tags is active, then the respective tasks should be filtered and displayed using HTML paragraph elements accordingly&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When a tag in the list of tags is active, then the respective tasks should be filtered and displayed using HTML paragraph elements accordingly&quot;,
+          &quot;id&quot;: &quot;RJSCEUU4M8_TEST_22&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;My Tasks Tests&quot;
+          ],
+          &quot;duration&quot;: 274,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;My Tasks TestsWhen a tag in the list of tags is active, then the tag name of the respective tasks should be displayed using HTML paragraph elements&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When a tag in the list of tags is active, then the tag name of the respective tasks should be displayed using HTML paragraph elements&quot;,
+          &quot;id&quot;: &quot;RJSCEUU4M8_TEST_23&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;My Tasks Tests&quot;
+          ],
+          &quot;duration&quot;: 222,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;My Tasks TestsWhen no tag in the list of tags is inactive, then all the tasks should be displayed&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;When no tag in the list of tags is inactive, then all the tasks should be displayed&quot;,
+          &quot;id&quot;: &quot;RJSCEUU4M8_TEST_24&quot;
+        }
+      ],
+      &quot;failureMessage&quot;: &quot;  ● :::RJSCEUU4M8_TEST_SUITE_1:::My Tasks Tests › :::RJSCEUU4M8_TEST_1:::When a task is added page should consist of at least two HTML list items and the tagsList should be rendered using a unique key as a prop for each tagItem:::10:::\n\n    Warning: Each child in a list should have a unique \&quot;key\&quot; prop.%s%s See https://reactjs.org/link/warning-keys for more information.%s\n\n      60 |         /Encountered two children with the same key/.test(message)\n      61 |       ) {\n    &gt; 62 |         throw new Error(message)\n         |               ^\n      63 |       }\n      64 |     }\n      65 |     render(&lt;App /&gt;)\n\n      at console.error (src/__tests__/App.js:62:15)\n      at printWarning (node_modules/.pnpm/react@17.0.1/node_modules/react/cjs/react-jsx-dev-runtime.development.js:117:30)\n      at error (node_modules/.pnpm/react@17.0.1/node_modules/react/cjs/react-jsx-dev-runtime.development.js:93:5)\n      at validateExplicitKey (node_modules/.pnpm/react@17.0.1/node_modules/react/cjs/react-jsx-dev-runtime.development.js:986:5)\n      at validateChildKeys (node_modules/.pnpm/react@17.0.1/node_modules/react/cjs/react-jsx-dev-runtime.development.js:1013:11)\n      at jsxWithValidation (node_modules/.pnpm/react@17.0.1/node_modules/react/cjs/react-jsx-dev-runtime.development.js:1184:11)\n      at App.render (src/App.js:115:13)\n      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)\n      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)\n      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)\n      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)\n      at performUnitOfWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22779:12)\n      at workLoopSync (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22707:5)\n      at renderRootSync (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22670:7)\n      at performSyncWorkOnRoot (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22293:18)\n      at scheduleUpdateOnFiber (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:21881:7)\n      at updateContainer (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:25482:3)\n      at node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:26021:7\n      at unbatchedUpdates (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22431:12)\n      at legacyRenderSubtreeIntoContainer (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:26020:5)\n      at Object.render (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:26103:10)\n      at node_modules/.pnpm/@testing-library+react@11.2.5_react-dom@17.0.1+react@17.0.1/node_modules/@testing-library/react/dist/pure.js:99:25\n      at batchedUpdates$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:22380:12)\n      at act (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)\n      at render (node_modules/.pnpm/@testing-library+react@11.2.5_react-dom@17.0.1+react@17.0.1/node_modules/@testing-library/react/dist/pure.js:95:26)\n      at Object.&lt;anonymous&gt; (src/__tests__/App.js:65:11)\n&quot;
+    }
+  ],
+  &quot;wasInterrupted&quot;: false
+}</div></body></html>
